@@ -8,7 +8,9 @@ Repository is signiﬁcant source for machine learning and NLP analysis for info
 Annotation process is done on basis of identification of each Sindhi token. 
 Tagger read the Sindhi text first, then convert it from left side to right side as Sindhi text is right hand written text. It split the text into independent tokens to tag each token with UPOS and SPOS.
 Tagger identify the status of Sindhi token from data dictionary and tag it with UPOS and SPOS accordingly.
-Tagger performs the annotation analysis process to show the usage of each tag.
 There is matching between UPOS and SPOS with little difference in UPOS tag PART and SPOS tag adverb.
 Sindhi adverb is used to tag all the Sindhi token using all the properties of adverb therefore, it is used to Sindhi words no, not, never as well however, UPOS tag PART is used to tag the words no, not, never. Therefore, Sindhi tagger uses UPOS tag PART while tagging Sindhi words no, not, no one never and other such types of the word.
 Sindhi tagger uses post position for possessive markers whereas, UPOS uses PART tag for possessive markers.
+Tagger performs the annotation analysis process to show the usage of each tag.
+The analyzer shows the number of tokens and execution time which taken by processor.
+Tagger analyze the sentence or corpus to identify the morphological words. It shows the morphological words separately according to morphological forms. The simple and bound forms of morphology are used however, bound form is divided into complex, compound and reduplicated forms. 
